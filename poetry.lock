@@ -1298,21 +1298,11 @@ files = [
 
 [[package]]
 name = "xformers"
-version = "0.0.26.post1"
+version = "0.0.28"
 description = "XFormers: A collection of composable Transformer building blocks."
 optional = false
 python-versions = ">=3.7"
-files = [
-    {file = "xformers-0.0.26.post1-cp310-cp310-manylinux2014_x86_64.whl", hash = "sha256:1fe0f9a3dddb7f6175c2e34de2f318d6742eec28c068b8334b093016b2c9c2c8"},
-    {file = "xformers-0.0.26.post1-cp310-cp310-win_amd64.whl", hash = "sha256:e34b8dd6982077bee0c8eb2db8bc1513177201bfe0af890a4db42d8d31c966a5"},
-    {file = "xformers-0.0.26.post1-cp311-cp311-manylinux2014_x86_64.whl", hash = "sha256:0d35615870b9237077aec51802a5a821f9e9d2708730c8914d5cff301fb29558"},
-    {file = "xformers-0.0.26.post1-cp311-cp311-win_amd64.whl", hash = "sha256:d05c547b4ba603fc8e21fad03a342138eaaece35fe0a1692e6ee0d061ddd21ac"},
-    {file = "xformers-0.0.26.post1-cp38-cp38-manylinux2014_x86_64.whl", hash = "sha256:f3afa385266264d5f713e75ad1b31de99add9a719f2f461f98e032c259170cc9"},
-    {file = "xformers-0.0.26.post1-cp38-cp38-win_amd64.whl", hash = "sha256:e96e2c1a11e84a6aac8386a304e3e338057c95029c82b221bf6aa1658aeacdf0"},
-    {file = "xformers-0.0.26.post1-cp39-cp39-manylinux2014_x86_64.whl", hash = "sha256:16dcfa801450a03f148d6d5f7ba2b5540a27c52517946570fe0e1f75238d73a1"},
-    {file = "xformers-0.0.26.post1-cp39-cp39-win_amd64.whl", hash = "sha256:cf267bac8f4454db1056e4e6ff9e4df1e02b2b31d8116d50913af15fa6ae7132"},
-    {file = "xformers-0.0.26.post1.tar.gz", hash = "sha256:1d14b5f999ede649198379b0470ebdd25007ba224ae336ef958124158a6de8b1"},
-]
+files = []
 
 [package.dependencies]
 numpy = "*"
